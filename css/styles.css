@@ -3,6 +3,10 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+a {
+    color: #2e94cc;
+}
+
 header {
     background-color: #2e94cc;
     color: white;
@@ -80,8 +84,14 @@ footer {
     background-color: #f1f1f1;
     max-width: 680px;
     margin: auto;
-    padding: 20px 15px;
+    padding: 20px 15px;    
     margin-bottom: 70px;
+}
+
+footer a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 footer ul {
