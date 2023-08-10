@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My First Web Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
@@ -16,29 +19,30 @@
        
         <article>
 
-            <section>
-                <div>by LaQuisha Cain | 5 min read</div>
+            <section id="title-section">
+                <div class="post-author">by LAQUISHA CAIN | 5 min read</div>
                 <h1>
                     Getting started with HTML & CSS
                 </h1>
-                <div>by LaQuisha Cain | 5 min read</div>
+                <div class="share-post uppercase">
+                    <span>Share This Post</span>
+                </div>
             </section>
 
-            <section>
+            <section class="hero-image">
                 <img src="images/front-end-developer.jpg">
             </section>
 
-            <section>
+            <section id="content-section">
 
-                <a href="https://www.google.com">Click here</a>
-                
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente corporis eaque voluptatem ad beatae odit, blanditiis qui fugiat deleniti minima ipsam mollitia consequatur, corrupti nihil autem, iusto dolores rem!</p>
+                                
+                <p>Lorem ipsum dolor sit, amet <a href="https://www.google.com">consectetur adipisicing</a> elit. Nulla sapiente corporis eaque voluptatem ad beatae odit, blanditiis qui fugiat deleniti minima ipsam mollitia consequatur, corrupti nihil autem, iusto dolores rem!</p>
             
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur hic non itaque, voluptatibus iste perferendis esse fuga beatae unde delectus rem ipsa? Enim deleniti odio similique. Ipsa, consequuntur quod.</p>
+                <p>Perferendis esse fuga beatae unde delectus rem ipsa? Enim deleniti odio similique. Ipsa, consequuntur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur hic non itaque, voluptatibus iste perferendis esse fuga beatae unde delectus rem ipsa? Enim deleniti odio similique. Ipsa, consequuntur quod.</p>
         
-                <h2>Nullam ultricies viverra</h2>
+                <h2 class="uppercase">Nullam ultricies viverra</h2>
         
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit delectus quae molestiae harum aperiam, nisi optio non tempora dolore mollitia reprehenderit tempore totam ipsa minus obcaecati nihil magni maxime.</p>
+                <p>Optio non tempora dolore mollitia reprehenderit tempore totam ipsa minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit delectus quae molestiae harum aperiam, nisi optio non tempora dolore mollitia reprehenderit tempore totam ipsa minus obcaecati nihil magni maxime.</p>
         
                 <ol>
                     <li>Mauris sem, ut sed</li>
@@ -46,7 +50,7 @@
                     <li>Placerat eget autor</li>
                 </ol>
         
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis dolorem expedita placeat excepturi saepe quis? Quisquam qui quasi voluptatum libero, cumque neque maiores debitis consequatur error fuga quae aspernatur?</p>
+                <p>Repellendus blanditiis dolorem expedita placeat excepturi saepe quis? Quisquam qui quasi voluptatum libero. Repellendus blanditiis dolorem expedita placeat excepturi saepe quis? Quisquam qui quasi voluptatum libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis dolorem expedita placeat excepturi saepe quis? Quisquam qui quasi voluptatum libero, cumque neque maiores debitis consequatur error fuga quae aspernatur?</p>
         
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </section>           
@@ -56,6 +60,7 @@
 
         <footer>
             <ul>
+                <div class="links-title uppercase">Share This Post</div>
                 <li><a href="https://www.google.com">The 3 Most Popular Javascript Framework</a></li>
                 <li><a href="https://www.google.com">Best Front End development blog</a></li>
                 <li><a href="https://www.google.com">New HTML Elements Explained</a></li>
